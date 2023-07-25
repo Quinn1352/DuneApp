@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68A89717BE7E65049C04BDC9 /* Pods_DuneApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB9C861F79D73FEC3D75394 /* Pods_DuneApp.framework */; };
+		738DF8A472F63F2D6E57D468 /* Pods_DuneApp_DuneAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B312B249EA87EE09103D20 /* Pods_DuneApp_DuneAppUITests.framework */; };
+		75A437C02A678606005EEE45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A437BF2A678606005EEE45 /* AppDelegate.swift */; };
+		75A437C22A678606005EEE45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A437C12A678606005EEE45 /* SceneDelegate.swift */; };
+		75A437C42A678606005EEE45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A437C32A678606005EEE45 /* ViewController.swift */; };
+		75A437C72A678606005EEE45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A437C52A678606005EEE45 /* Main.storyboard */; };
+		75A437C92A678608005EEE45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A437C82A678608005EEE45 /* Assets.xcassets */; };
+		75A437CC2A678608005EEE45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A437CA2A678608005EEE45 /* LaunchScreen.storyboard */; };
+		75A437D72A678608005EEE45 /* DuneAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A437D62A678608005EEE45 /* DuneAppTests.swift */; };
+		75A437E12A678608005EEE45 /* DuneAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A437E02A678608005EEE45 /* DuneAppUITests.swift */; };
+		75A437E32A678608005EEE45 /* DuneAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A437E22A678608005EEE45 /* DuneAppUITestsLaunchTests.swift */; };
+		75A437F82A6786B6005EEE45 /* OtherFactionsSelectScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A437EF2A6786B6005EEE45 /* OtherFactionsSelectScreen.swift */; };
+		75A437F92A6786B6005EEE45 /* LeaderboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A437F02A6786B6005EEE45 /* LeaderboardScreen.swift */; };
+		75A437FA2A6786B6005EEE45 /* SetUpPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A437F12A6786B6005EEE45 /* SetUpPhase.swift */; };
+		75A437FB2A6786B6005EEE45 /* FactionSelectScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A437F22A6786B6005EEE45 /* FactionSelectScreen.swift */; };
+		75A437FC2A6786B6005EEE45 /* RulesSelectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A437F32A6786B6005EEE45 /* RulesSelectionScreen.swift */; };
+		75A437FD2A6786B6005EEE45 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A437F42A6786B6005EEE45 /* MainPage.swift */; };
+		75A437FE2A6786B6005EEE45 /* UnavailableFactionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A437F52A6786B6005EEE45 /* UnavailableFactionScreen.swift */; };
+		75A437FF2A6786B6005EEE45 /* FactionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A437F62A6786B6005EEE45 /* FactionClass.swift */; };
+		75A438022A6D636C005EEE45 /* easyFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A438012A6D636C005EEE45 /* easyFuncs.swift */; };
+		75A438042A6D6396005EEE45 /* gameVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A438032A6D6396005EEE45 /* gameVariables.swift */; };
+		75A438062A6D6DEA005EEE45 /* phases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A438052A6D6DEA005EEE45 /* phases.swift */; };
+		75A4380B2A6D794D005EEE45 /* cardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A4380A2A6D794D005EEE45 /* cardList.swift */; };
+		75A4380D2A6D92ED005EEE45 /* facOneScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A4380C2A6D92ED005EEE45 /* facOneScreen.swift */; };
+		75A4380F2A6F074F005EEE45 /* otherFacScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A4380E2A6F074F005EEE45 /* otherFacScreen.swift */; };
+		75A438112A705F34005EEE45 /* StormPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A438102A705F34005EEE45 /* StormPhase.swift */; };
+		8260E5DC05F512A565AB81E6 /* Pods_DuneAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC637EE7420DE1F73E4262D /* Pods_DuneAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75A437D32A678608005EEE45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75A437B42A678606005EEE45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75A437BB2A678606005EEE45;
+			remoteInfo = DuneApp;
+		};
+		75A437DD2A678608005EEE45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75A437B42A678606005EEE45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75A437BB2A678606005EEE45;
+			remoteInfo = DuneApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		097A420FCA60D89963A469B3 /* Pods-DuneApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuneApp.release.xcconfig"; path = "Target Support Files/Pods-DuneApp/Pods-DuneApp.release.xcconfig"; sourceTree = "<group>"; };
+		1AB9C861F79D73FEC3D75394 /* Pods_DuneApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuneApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FDB5FC2F7F47CA02F28FAAE /* Pods-DuneApp-DuneAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuneApp-DuneAppUITests.release.xcconfig"; path = "Target Support Files/Pods-DuneApp-DuneAppUITests/Pods-DuneApp-DuneAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		203F06DCCB1AE6D907F22009 /* Pods-DuneApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuneApp.debug.xcconfig"; path = "Target Support Files/Pods-DuneApp/Pods-DuneApp.debug.xcconfig"; sourceTree = "<group>"; };
+		369D1FD30BABAD91943189EC /* Pods-DuneAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuneAppTests.debug.xcconfig"; path = "Target Support Files/Pods-DuneAppTests/Pods-DuneAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E33ECF658ACAFB9FB22E8B7 /* Pods-DuneAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuneAppTests.release.xcconfig"; path = "Target Support Files/Pods-DuneAppTests/Pods-DuneAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		75A437BC2A678606005EEE45 /* DuneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A437BF2A678606005EEE45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75A437C12A678606005EEE45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		75A437C32A678606005EEE45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75A437C62A678606005EEE45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75A437C82A678608005EEE45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75A437CB2A678608005EEE45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75A437CD2A678608005EEE45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75A437D22A678608005EEE45 /* DuneAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuneAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A437D62A678608005EEE45 /* DuneAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuneAppTests.swift; sourceTree = "<group>"; };
+		75A437DC2A678608005EEE45 /* DuneAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuneAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A437E02A678608005EEE45 /* DuneAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuneAppUITests.swift; sourceTree = "<group>"; };
+		75A437E22A678608005EEE45 /* DuneAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuneAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		75A437EF2A6786B6005EEE45 /* OtherFactionsSelectScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OtherFactionsSelectScreen.swift; path = "../../Dune App/Dune App/Dune App/OtherFactionsSelectScreen.swift"; sourceTree = "<group>"; };
+		75A437F02A6786B6005EEE45 /* LeaderboardScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeaderboardScreen.swift; path = "../../Dune App/Dune App/Dune App/LeaderboardScreen.swift"; sourceTree = "<group>"; };
+		75A437F12A6786B6005EEE45 /* SetUpPhase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SetUpPhase.swift; path = "../../Dune App/Dune App/Dune App/SetUpPhase.swift"; sourceTree = "<group>"; };
+		75A437F22A6786B6005EEE45 /* FactionSelectScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FactionSelectScreen.swift; path = "../../Dune App/Dune App/Dune App/FactionSelectScreen.swift"; sourceTree = "<group>"; };
+		75A437F32A6786B6005EEE45 /* RulesSelectionScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RulesSelectionScreen.swift; path = "../../Dune App/Dune App/Dune App/RulesSelectionScreen.swift"; sourceTree = "<group>"; };
+		75A437F42A6786B6005EEE45 /* MainPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainPage.swift; path = "../../Dune App/Dune App/Dune App/MainPage.swift"; sourceTree = "<group>"; };
+		75A437F52A6786B6005EEE45 /* UnavailableFactionScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnavailableFactionScreen.swift; path = "../../Dune App/Dune App/Dune App/UnavailableFactionScreen.swift"; sourceTree = "<group>"; };
+		75A437F62A6786B6005EEE45 /* FactionClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FactionClass.swift; path = "../../Dune App/Dune App/Dune App/FactionClass.swift"; sourceTree = "<group>"; };
+		75A438012A6D636C005EEE45 /* easyFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = easyFuncs.swift; sourceTree = "<group>"; };
+		75A438032A6D6396005EEE45 /* gameVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameVariables.swift; sourceTree = "<group>"; };
+		75A438052A6D6DEA005EEE45 /* phases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phases.swift; sourceTree = "<group>"; };
+		75A4380A2A6D794D005EEE45 /* cardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardList.swift; sourceTree = "<group>"; };
+		75A4380C2A6D92ED005EEE45 /* facOneScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facOneScreen.swift; sourceTree = "<group>"; };
+		75A4380E2A6F074F005EEE45 /* otherFacScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otherFacScreen.swift; sourceTree = "<group>"; };
+		75A438102A705F34005EEE45 /* StormPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormPhase.swift; sourceTree = "<group>"; };
+		BDC637EE7420DE1F73E4262D /* Pods_DuneAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuneAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B312B249EA87EE09103D20 /* Pods_DuneApp_DuneAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuneApp_DuneAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD2E91A5B5F23C5A6FA2D4CD /* Pods-DuneApp-DuneAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuneApp-DuneAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-DuneApp-DuneAppUITests/Pods-DuneApp-DuneAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75A437B92A678606005EEE45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A89717BE7E65049C04BDC9 /* Pods_DuneApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A437CF2A678608005EEE45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8260E5DC05F512A565AB81E6 /* Pods_DuneAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A437D92A678608005EEE45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738DF8A472F63F2D6E57D468 /* Pods_DuneApp_DuneAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2006325D7A7C78784B3C5955 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				203F06DCCB1AE6D907F22009 /* Pods-DuneApp.debug.xcconfig */,
+				097A420FCA60D89963A469B3 /* Pods-DuneApp.release.xcconfig */,
+				FD2E91A5B5F23C5A6FA2D4CD /* Pods-DuneApp-DuneAppUITests.debug.xcconfig */,
+				1FDB5FC2F7F47CA02F28FAAE /* Pods-DuneApp-DuneAppUITests.release.xcconfig */,
+				369D1FD30BABAD91943189EC /* Pods-DuneAppTests.debug.xcconfig */,
+				6E33ECF658ACAFB9FB22E8B7 /* Pods-DuneAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6FD002793B20D0D9E9357469 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AB9C861F79D73FEC3D75394 /* Pods_DuneApp.framework */,
+				C2B312B249EA87EE09103D20 /* Pods_DuneApp_DuneAppUITests.framework */,
+				BDC637EE7420DE1F73E4262D /* Pods_DuneAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75A437B32A678606005EEE45 = {
+			isa = PBXGroup;
+			children = (
+				75A437BE2A678606005EEE45 /* DuneApp */,
+				75A437D52A678608005EEE45 /* DuneAppTests */,
+				75A437DF2A678608005EEE45 /* DuneAppUITests */,
+				75A437BD2A678606005EEE45 /* Products */,
+				2006325D7A7C78784B3C5955 /* Pods */,
+				6FD002793B20D0D9E9357469 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		75A437BD2A678606005EEE45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75A437BC2A678606005EEE45 /* DuneApp.app */,
+				75A437D22A678608005EEE45 /* DuneAppTests.xctest */,
+				75A437DC2A678608005EEE45 /* DuneAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75A437BE2A678606005EEE45 /* DuneApp */ = {
+			isa = PBXGroup;
+			children = (
+				75A437BF2A678606005EEE45 /* AppDelegate.swift */,
+				75A437C12A678606005EEE45 /* SceneDelegate.swift */,
+				75A437C32A678606005EEE45 /* ViewController.swift */,
+				75A437F02A6786B6005EEE45 /* LeaderboardScreen.swift */,
+				75A437F22A6786B6005EEE45 /* FactionSelectScreen.swift */,
+				75A437F52A6786B6005EEE45 /* UnavailableFactionScreen.swift */,
+				75A437F32A6786B6005EEE45 /* RulesSelectionScreen.swift */,
+				75A437EF2A6786B6005EEE45 /* OtherFactionsSelectScreen.swift */,
+				75A437F42A6786B6005EEE45 /* MainPage.swift */,
+				75A4380C2A6D92ED005EEE45 /* facOneScreen.swift */,
+				75A4380E2A6F074F005EEE45 /* otherFacScreen.swift */,
+				75A437F12A6786B6005EEE45 /* SetUpPhase.swift */,
+				75A438102A705F34005EEE45 /* StormPhase.swift */,
+				75A437C52A678606005EEE45 /* Main.storyboard */,
+				75A437C82A678608005EEE45 /* Assets.xcassets */,
+				75A437CA2A678608005EEE45 /* LaunchScreen.storyboard */,
+				75A437CD2A678608005EEE45 /* Info.plist */,
+				75A437F62A6786B6005EEE45 /* FactionClass.swift */,
+				75A438052A6D6DEA005EEE45 /* phases.swift */,
+				75A438012A6D636C005EEE45 /* easyFuncs.swift */,
+				75A438032A6D6396005EEE45 /* gameVariables.swift */,
+				75A4380A2A6D794D005EEE45 /* cardList.swift */,
+			);
+			path = DuneApp;
+			sourceTree = "<group>";
+		};
+		75A437D52A678608005EEE45 /* DuneAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				75A437D62A678608005EEE45 /* DuneAppTests.swift */,
+			);
+			path = DuneAppTests;
+			sourceTree = "<group>";
+		};
+		75A437DF2A678608005EEE45 /* DuneAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75A437E02A678608005EEE45 /* DuneAppUITests.swift */,
+				75A437E22A678608005EEE45 /* DuneAppUITestsLaunchTests.swift */,
+			);
+			path = DuneAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75A437BB2A678606005EEE45 /* DuneApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A437E62A678608005EEE45 /* Build configuration list for PBXNativeTarget "DuneApp" */;
+			buildPhases = (
+				1ABC3C611BBEF905D9BCBB56 /* [CP] Check Pods Manifest.lock */,
+				75A437B82A678606005EEE45 /* Sources */,
+				75A437B92A678606005EEE45 /* Frameworks */,
+				75A437BA2A678606005EEE45 /* Resources */,
+				D52075B17B9E71EFB7D798EA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DuneApp;
+			productName = DuneApp;
+			productReference = 75A437BC2A678606005EEE45 /* DuneApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75A437D12A678608005EEE45 /* DuneAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A437E92A678608005EEE45 /* Build configuration list for PBXNativeTarget "DuneAppTests" */;
+			buildPhases = (
+				2BC76E2017BBE4CF9F2C5A77 /* [CP] Check Pods Manifest.lock */,
+				75A437CE2A678608005EEE45 /* Sources */,
+				75A437CF2A678608005EEE45 /* Frameworks */,
+				75A437D02A678608005EEE45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75A437D42A678608005EEE45 /* PBXTargetDependency */,
+			);
+			name = DuneAppTests;
+			productName = DuneAppTests;
+			productReference = 75A437D22A678608005EEE45 /* DuneAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75A437DB2A678608005EEE45 /* DuneAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A437EC2A678608005EEE45 /* Build configuration list for PBXNativeTarget "DuneAppUITests" */;
+			buildPhases = (
+				7ABD61B8EABD0C0315D4E0B0 /* [CP] Check Pods Manifest.lock */,
+				75A437D82A678608005EEE45 /* Sources */,
+				75A437D92A678608005EEE45 /* Frameworks */,
+				75A437DA2A678608005EEE45 /* Resources */,
+				4978A2FE8F7E6249977F901D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75A437DE2A678608005EEE45 /* PBXTargetDependency */,
+			);
+			name = DuneAppUITests;
+			productName = DuneAppUITests;
+			productReference = 75A437DC2A678608005EEE45 /* DuneAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75A437B42A678606005EEE45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					75A437BB2A678606005EEE45 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					75A437D12A678608005EEE45 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 75A437BB2A678606005EEE45;
+					};
+					75A437DB2A678608005EEE45 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 75A437BB2A678606005EEE45;
+					};
+				};
+			};
+			buildConfigurationList = 75A437B72A678606005EEE45 /* Build configuration list for PBXProject "DuneApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75A437B32A678606005EEE45;
+			productRefGroup = 75A437BD2A678606005EEE45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75A437BB2A678606005EEE45 /* DuneApp */,
+				75A437D12A678608005EEE45 /* DuneAppTests */,
+				75A437DB2A678608005EEE45 /* DuneAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75A437BA2A678606005EEE45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A437CC2A678608005EEE45 /* LaunchScreen.storyboard in Resources */,
+				75A437C92A678608005EEE45 /* Assets.xcassets in Resources */,
+				75A437C72A678606005EEE45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A437D02A678608005EEE45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A437DA2A678608005EEE45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ABC3C611BBEF905D9BCBB56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DuneApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BC76E2017BBE4CF9F2C5A77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DuneAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4978A2FE8F7E6249977F901D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuneApp-DuneAppUITests/Pods-DuneApp-DuneAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuneApp-DuneAppUITests/Pods-DuneApp-DuneAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DuneApp-DuneAppUITests/Pods-DuneApp-DuneAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ABD61B8EABD0C0315D4E0B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DuneApp-DuneAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D52075B17B9E71EFB7D798EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuneApp/Pods-DuneApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DuneApp/Pods-DuneApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DuneApp/Pods-DuneApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75A437B82A678606005EEE45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A437C42A678606005EEE45 /* ViewController.swift in Sources */,
+				75A437FF2A6786B6005EEE45 /* FactionClass.swift in Sources */,
+				75A438042A6D6396005EEE45 /* gameVariables.swift in Sources */,
+				75A437FA2A6786B6005EEE45 /* SetUpPhase.swift in Sources */,
+				75A438022A6D636C005EEE45 /* easyFuncs.swift in Sources */,
+				75A438112A705F34005EEE45 /* StormPhase.swift in Sources */,
+				75A437FD2A6786B6005EEE45 /* MainPage.swift in Sources */,
+				75A437F92A6786B6005EEE45 /* LeaderboardScreen.swift in Sources */,
+				75A437C02A678606005EEE45 /* AppDelegate.swift in Sources */,
+				75A437FB2A6786B6005EEE45 /* FactionSelectScreen.swift in Sources */,
+				75A4380D2A6D92ED005EEE45 /* facOneScreen.swift in Sources */,
+				75A437C22A678606005EEE45 /* SceneDelegate.swift in Sources */,
+				75A437FE2A6786B6005EEE45 /* UnavailableFactionScreen.swift in Sources */,
+				75A438062A6D6DEA005EEE45 /* phases.swift in Sources */,
+				75A4380B2A6D794D005EEE45 /* cardList.swift in Sources */,
+				75A437FC2A6786B6005EEE45 /* RulesSelectionScreen.swift in Sources */,
+				75A437F82A6786B6005EEE45 /* OtherFactionsSelectScreen.swift in Sources */,
+				75A4380F2A6F074F005EEE45 /* otherFacScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A437CE2A678608005EEE45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A437D72A678608005EEE45 /* DuneAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A437D82A678608005EEE45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A437E32A678608005EEE45 /* DuneAppUITestsLaunchTests.swift in Sources */,
+				75A437E12A678608005EEE45 /* DuneAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75A437D42A678608005EEE45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75A437BB2A678606005EEE45 /* DuneApp */;
+			targetProxy = 75A437D32A678608005EEE45 /* PBXContainerItemProxy */;
+		};
+		75A437DE2A678608005EEE45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75A437BB2A678606005EEE45 /* DuneApp */;
+			targetProxy = 75A437DD2A678608005EEE45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75A437C52A678606005EEE45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75A437C62A678606005EEE45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75A437CA2A678608005EEE45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75A437CB2A678608005EEE45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75A437E42A678608005EEE45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75A437E52A678608005EEE45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75A437E72A678608005EEE45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 203F06DCCB1AE6D907F22009 /* Pods-DuneApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DuneApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.DuneApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75A437E82A678608005EEE45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 097A420FCA60D89963A469B3 /* Pods-DuneApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DuneApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.DuneApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75A437EA2A678608005EEE45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 369D1FD30BABAD91943189EC /* Pods-DuneAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.DuneAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DuneApp.app/DuneApp";
+			};
+			name = Debug;
+		};
+		75A437EB2A678608005EEE45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E33ECF658ACAFB9FB22E8B7 /* Pods-DuneAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.DuneAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DuneApp.app/DuneApp";
+			};
+			name = Release;
+		};
+		75A437ED2A678608005EEE45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD2E91A5B5F23C5A6FA2D4CD /* Pods-DuneApp-DuneAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.DuneAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DuneApp;
+			};
+			name = Debug;
+		};
+		75A437EE2A678608005EEE45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FDB5FC2F7F47CA02F28FAAE /* Pods-DuneApp-DuneAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.DuneAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DuneApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75A437B72A678606005EEE45 /* Build configuration list for PBXProject "DuneApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A437E42A678608005EEE45 /* Debug */,
+				75A437E52A678608005EEE45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A437E62A678608005EEE45 /* Build configuration list for PBXNativeTarget "DuneApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A437E72A678608005EEE45 /* Debug */,
+				75A437E82A678608005EEE45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A437E92A678608005EEE45 /* Build configuration list for PBXNativeTarget "DuneAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A437EA2A678608005EEE45 /* Debug */,
+				75A437EB2A678608005EEE45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A437EC2A678608005EEE45 /* Build configuration list for PBXNativeTarget "DuneAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A437ED2A678608005EEE45 /* Debug */,
+				75A437EE2A678608005EEE45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75A437B42A678606005EEE45 /* Project object */;
+}

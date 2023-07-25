@@ -1,0 +1,6 @@
+framework module Pods_DuneAppTests {
+  umbrella header "Pods-DuneAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

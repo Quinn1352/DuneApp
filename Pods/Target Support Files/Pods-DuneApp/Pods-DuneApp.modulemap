@@ -1,0 +1,6 @@
+framework module Pods_DuneApp {
+  umbrella header "Pods-DuneApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
